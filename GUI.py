@@ -6,7 +6,7 @@ import subprocess
 
 def start_program():
     try:
-        subprocess.run(["python", "007.py"])
+        subprocess.run(["python", "005注释版.py"])
     except Exception as e:
         messagebox.showerror("错误", f"启动程序时发生错误：{e}")
 
